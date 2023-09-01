@@ -1,0 +1,184 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Estilos del navbar */
+.nav {
+  background-color: #383c44;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav a {
+  text-decoration: none;
+  color: #c3c3c3;
+  padding: 8px 16px;
+}
+
+.nav a:hover {
+  color: #ebecec;
+}
+
+/* Estilos div principal */
+/* .container {
+  background-color: #ffffff86;
+  width: 50%;
+  margin: auto;
+  box-shadow: inset 0 0 2px rgba(255, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+} */
+
+.container-index {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+h1 {
+  text-align: center;
+}
+
+/* Estilos del form/inputs */
+.title-contact {
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.input:focus {
+  border-color: #979797;
+  outline: none;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.form textarea,
+.form select
+/* .form button  */
+{
+
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+textarea:focus,
+select:focus {
+  border-color: #979797;
+  outline: none;
+}
+
+/* .form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+} */
+
+/* Estilos del check y del radio */
+.gender {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.form .hiring {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.form .hiring label {
+  margin: 0;
+}
+
+/* Estilos de la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+table th {
+  background-color: #383c44;
+  color: #fff;
+}
+
+table ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+table ul li {
+  margin-bottom: 3px;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+#img {
+  display: flex;
+  align-items: center;
+}
+#p-img {
+  margin: 0;
+}
+
+/* Estilos del footer */
+.footer {
+  background-color: #383c44;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#email {
+  text-decoration: none;
+  color: #fff;
+}
+#email:hover {
+  color: #ffffffa5;
+}

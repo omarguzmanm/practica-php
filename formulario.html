@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="nav">
+      <a href="index.html">Acerca de mí</a>
+      <a href="formulario.html">Contacto</a>
+      <a href="usuarios.php">Usuarios</a>
+    </div>
+
+    <div class="container">
+      <div class="title-contact mt-2">
+        <h1>Contacto</h1>
+      </div>
+      <div class="form">
+        <form action="formulario.html" method="GET">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" class="input" />
+          <label for="correo">Correo electrónico</label>
+          <input type="email" name="correo" id="correo" class="input" />
+          <label for="genero">Género</label>
+          <div class="gender">
+            <span >Masculino</span><input type="radio" name="masculino" id="genero" />
+            <span>Femenino</span><input type="radio" name="femenino"/>
+          </div>
+          <label for="contraseña">Contraseña</label>
+          <input type="password" name="contraseña" id="contraseña" class="input" />
+          <label for="comentario">Comentario</label>
+          <textarea name="comentario" id="comentario"></textarea>
+          <label for="ciudad">Ciudad</label>
+          <select name="ciudad" id="ciudad">
+            <option selected disabled>Selecciona una opción</option>
+            <option value="id_ciudad">Guadalajara</option>
+            <option value="id_ciudad">Zapopan</option>
+            <option value="id_ciudad">Tonalá</option>
+            <option value="id_ciudad">Otra</option>
+          </select>
+          <div class="hiring">
+            <input type="checkbox" name="contratacion" id="contratacion" />
+            <label for="contratacion">Me interesa contratarte</label>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
